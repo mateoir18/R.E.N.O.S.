@@ -9,6 +9,15 @@ package Renos;
 	
 	
 	
+	public Robot(String Nombre) {
+
+		this.Nombre = Nombre;
+	}
+	
+
+	
+	
+	
 		
 		
 		
@@ -20,27 +29,18 @@ package Renos;
 		Nombre = nombre;
 	}
 	public int getPuntosDeVida() {
+		puntosDeVida=100;
 		return puntosDeVida;
 	}
-	public void setPuntosDeVida(int puntosDeVida) {
-		if(puntosDeVida>=0) {
-		this.puntosDeVida = puntosDeVida;
-		}
-	}
 	public double getAtaque() {
+		ataque = (int) (Math.random()*20);
 		return ataque;
 	}
-	public void setAtaque(int ataque) {
-		if(ataque>=0) {
-		this.ataque = ataque;
-		}
-	}
 	public double getDefensa() {
+		defensa = (int) (Math.random()*100);
 		return defensa;
 	}
-	public void setDefensa(int defensa) {
-		this.defensa = defensa;
-	}
+	
 	
 	
 	
