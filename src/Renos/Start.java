@@ -9,6 +9,7 @@ public class Start {
 		robot1.getPuntosDeVida();
 		robot1.getAtaque();
 		robot1.getDefensa();
+		robot1.vidaPostBatallarobot1(robot1);
 		
 		System.out.println(robot1);
 		
@@ -20,8 +21,15 @@ public class Start {
 		robot2.getPuntosDeVida();
 		robot2.getAtaque();
 		robot2.getDefensa();
+		robot2.vidaPostBatallarobot2(robot2);
 		
 		System.out.println(robot2);
+		
+		
+		
+		
+	
+		
 		
 	}
 
